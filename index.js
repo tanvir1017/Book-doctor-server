@@ -11,8 +11,8 @@ const stripe = require("stripe")(
 );
 require("dotenv").config();
 
-/* DB_USER=Doctor-portal
-DB_PASS=5FWmJozKiFjRZD3d
+/* userName = DB_USER=Doctor-portal
+ userPassword = DB_PASS=5FWmJozKiFjRZD3d
 STRIPE_SECRET=sk_test_51JwgBdGiEGQOdu5ahTwZo95Z9OhJBaQv1ELNuRoonS49tFQcV1q0CFUPhfgxcvRjVd9j3uNaXVJfJhqbQhMJfOEu00fBLBaCi1 */
 
 // middleware
